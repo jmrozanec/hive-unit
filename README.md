@@ -1,4 +1,4 @@
-## hive_test: A simple way to test Hive scripts.
+## hive-unit: A simple way to test Hive scripts.
 
 ### Usage
 
