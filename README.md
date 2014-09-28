@@ -1,4 +1,4 @@
-## hive_test: A simple way to test Hive scripts.
+## hive-unit: A simple way to test Hive scripts.
 
 ### Usage
 
@@ -59,4 +59,8 @@ Contributions are welcome! You can contribute by
  * testing
  * enhancing documentation
  * bringing suggestions and reporting bugs
+<<<<<<< HEAD
  * spreading the word / telling us how you use it!
+=======
+ * spreading the word / telling us how you use it!
+>>>>>>> 693d6fd813e9e93510f3be4eba08539c116384a6
