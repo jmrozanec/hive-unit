@@ -1,8 +1,10 @@
 ## hive-unit: A simple way to test Hive scripts.
 
+[![Build Status](https://travis-ci.org/jmrozanec/hive-unit.svg)](https://travis-ci.org/jmrozanec/hive-unit)
+
 ### Usage
 
-hive_test gives us an embedded Hive including an embedded Derby database,
+hive-unit gives us an embedded Hive including an embedded Derby database,
 and a local HiveThriftService. This allows us to create unit tests very easily.
 
 Hive scripts testing can be done in a similar way to [PigUnit](http://pig.apache.org/docs/r0.8.1/pigunit.html).
@@ -34,21 +36,7 @@ For more examples check [this class](https://github.com/jmrozanec/hive_test/blob
             }
 
 
-### Available at Maven central!
-
-Declare the Maven dependency in your pom.xml file
-
-        <dependencies>
-            ...
-                <dependency>
-                    <groupId>com.jointhegrid</groupId>
-                    <artifactId>hive_test</artifactId>
-                    <version>4.3.0-SNAPSHOT</version>
-                    <classifier>jar-with-dependencies</classifier>
-                </dependency>
-             ...
-        <dependencies>
-
+### Soon will be available at Maven central!
 
 ### Contribute!
 
