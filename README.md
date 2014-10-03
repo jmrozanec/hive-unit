@@ -4,8 +4,9 @@
 
 ### Usage
 
-hive-unit gives us an embedded Hive including an embedded Derby database,
-and a local HiveThriftService. This allows us to create unit tests very easily.
+hive-unit provides means to test Hive scripts. This can be done against an Hive instance 
+including an embedded Derby database, and a local HiveThriftService; or against an existing Hive cluster. 
+This allows us to create unit and integration tests very easily.
 
 Hive scripts testing can be done in a similar way to [PigUnit](http://pig.apache.org/docs/r0.8.1/pigunit.html).
 For more examples check [this class](https://github.com/jmrozanec/hive_test/blob/master/src/test/java/com/jointhegrid/hive_test/HiveTestTest.java)
