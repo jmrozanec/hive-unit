@@ -64,7 +64,7 @@
 
 <property>
   <name>hive.exec.scratchdir</name>
-  <value>/tmp/hive-${user.name}</value>
+  <value>/tmp/hive-unit</value>
   <description>Scratch space for Hive jobs</description>
 </property>
 
